@@ -1,0 +1,2 @@
+# DuckLib
+DuckTyping for Java
