@@ -6,8 +6,9 @@ DuckTyping for Java
 public class MainClass {
   public static void main(String...args) {
     SomeObject someBigObject = new SomeObject();
+    
     Quacked quacked = Duck.quack(DoSmthInterface.class, someBigObject);
-    quacked.doSmth(); // It's works
+    quacked.doSmth(); // It works
   }
 }
 
