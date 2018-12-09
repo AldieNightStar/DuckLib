@@ -22,3 +22,11 @@ interface Quacked {
   void doSmth();
 }
 ```
+# If you want to get data from object
+```java
+interface Quacked {
+  SomeObject data(); // JUST add this method - it will return SomeObject, whose Quacked Interface was made from.
+  doSmth();
+}
+
+```
