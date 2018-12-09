@@ -6,7 +6,7 @@ DuckTyping for Java
 public class MainClass {
   public static void main(String...args) {
     SomeObject someBigObject = new SomeObject();
-    DoSmthInterface quacked = Duck.quack(DoSmthInterface.class, someBigObject);
+    Quacked quacked = Duck.quack(DoSmthInterface.class, someBigObject);
     quacked.doSmth(); // It's works
   }
 }
@@ -17,7 +17,7 @@ class SomeObject {
   void etc () { ... }
 }
 
-interface DoSmthInterface {
+interface Quacked {
   void doSmth();
 }
 ```
