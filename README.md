@@ -30,3 +30,13 @@ interface Quacked {
 }
 
 ```
+
+# If you want to rename method
+```java
+class DoIt {
+  void doIt();
+  
+  @Duck.Rename("doTheNextThingWithLongMethodName") // It will rename 'quacked' method to 'doNext' :)
+  void doNext();
+}
+```
