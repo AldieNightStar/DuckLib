@@ -7,7 +7,7 @@ public class MainClass {
   public static void main(String...args) {
     SomeObject someBigObject = new SomeObject();
     
-    Quacked quacked = Duck.quack(DoSmthInterface.class, someBigObject);
+    Quacked quacked = Duck.quack(Quacked.class, someBigObject);
     quacked.doSmth(); // It works
   }
 }
